@@ -21,5 +21,6 @@ const server = app.listen(port, () => {
         console.error('获取日志时出错:', error);
         // 关闭服务器
         server.close();
+        //add new cooment!!!!
     });
 }); 
